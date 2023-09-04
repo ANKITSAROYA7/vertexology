@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Gilroybold';
+    src: url(../dist/font-family/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: 'Gilroylight';
+    src: url(../dist/font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg{
+    background: url(/dist/images/hero-bg.png);
+}
