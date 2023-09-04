@@ -546,6 +546,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg{
-  background: url(/dist/images/hero-bg.png);
+.slider2::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 900px !important;
+  background:white;
+  top: 0;
+  bottom: 0%;
+  right: 95%;
 }
