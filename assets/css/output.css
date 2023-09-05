@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Gilroybold';
 
-  src: url(../dist/font-family/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
+  src: url(../font-family/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
 }
 
 @font-face {
   font-family: 'Gilroylight';
 
-  src: url(../dist/font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+  src: url(../font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
 }
 
 /*

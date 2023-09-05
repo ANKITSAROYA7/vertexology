@@ -1,17 +1,16 @@
 @font-face {
     font-family: 'Gilroybold';
-    src: url(../dist/font-family/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
+    src: url(../font-family/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
 }
 
 @font-face {
     font-family: 'Gilroylight';
-    src: url(../dist/font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+    src: url(../font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 .slider2::after{
     content: "";
@@ -24,13 +23,10 @@
     right: 95%;
 }
 
-
 .gradint-btn {
     transition: 300ms ease-in-out;
-    
     background: linear-gradient(134deg, #FF2801 -0.47%, #FF6500 90.6%), linear-gradient(96deg, #0075FF 1.34%, #00F 107.5%);
 }
-
 
 .shadow-3d{
     text-shadow: 0px 4.909390449523926px 4.909390449523926px rgba(0, 0, 0, 0.25);
