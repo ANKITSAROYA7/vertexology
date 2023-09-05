@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,17 +24,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- LINK FOR SLICK THEME.MIN.CSS FPR SLICK SLIDER -->   
+    <!-- LINK FOR SLICK THEME.MIN.CSS FOR SLICK SLIDER -->   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-13UPg3KtRrbNehG55PuwH5LBmtSsGgdiHs7PUsckbBFkfKtG/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
-<body>
+<body >
     <!-- HERO SECTION FLOWER IN THE BACKGROUND -->
-    <section class="flex flex-col  bg-[url('./images/hero-bg.png')] bg-center bg-no-repeat bg-cover ">
+    <section id="Home" class="flex flex-col  bg-[url('./images/hero-bg.png')] bg-center bg-no-repeat bg-cover h-screen">
         <nav class="container px-4 mx-auto flex justify-between py-3">
-            <img src="./images/logo.png" alt="">
+            <img src="./images/logo.png" alt="" class="cursor-pointer">
             <ul id="Nav-Bar"
                 class="flex gap-8 z-10 flex-col min-h-screen bg-black items-center justify-center w-full fixed duration-300 top-0 left-[-100%] md:flex-row md:bg-inherit md:w-auto md:min-h-full md:static">
                 <li><a class="text-white font-[Gilroylight]"  href="#Home">Home</a></li>
@@ -50,16 +48,16 @@
                 <span class="border-white border-2"></span>
             </label>
         </nav>
-        <div class="flex-grow flex justify-center  text-center items-center h-screen">
+        <div class="flex-grow flex justify-center  text-center items-center ">
             <div>
-                <h1 class="lg:text-[123px] font-black text-white font-[Gilroybold] text-5xl sm:text-7xl">3D PRODUCT</h1>
-                <h1 class="lg:text-[137px] font-black text-white font-[Gilroybold] text-5xl sm:text-7xl">ANIMATION</h1>
+                <h1 class="lg:text-[123px] font-black text-white font-[Gilroybold] text-5xl sm:text-7xl shadow-3d">3D PRODUCT</h1>
+                <h1 class="lg:text-[137px] font-black text-white font-[Gilroybold] text-5xl sm:text-7xl shadow-3d">ANIMATION</h1>
             </div>
 
         </div>
     </section>
     <!-- SOME INFO FOR CONTACT US -->
-    <section id="Home" class="relative">
+    <section  class="relative">
         <svg class="absolute  top-7 right-7" width="92" height="71" viewBox="0 0 92 71" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5">
@@ -74,7 +72,7 @@
                     stroke-linecap="round" />
             </g>
         </svg>
-        <div class="container px-3 mx-auto py-24 sm:py-36 lg:py-40">
+        <div class="container px-3 mx-auto pt-16 pb-16 sm:pt-20 sm:pb-20 lg:pt-32 lg:pb-32  ">
             <div class=" flex flex-wrap justify-between  items-center text-center lg:text-start">
                 <div class="w-full lg:w-[70%] xl:w-[53%]  ">
                     <h1 class="text-2xl sm:text-4xl md:text-5xl font-black text-black font-[Gilroybold] uppercase">Nisi
@@ -86,14 +84,14 @@
                         Tincidunt phasellus id imperdiet lorem blandit.
                         Congue donec
                         scelerisque congue pellentesque.</h1>
-                    <button class="py-4 px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-6">Contact
+                    <button class="py-4 px-8 rounded-full text-base font-bold  text-white shadow-md gradint-btn shadow-[#ff6500] hover:bg-none border-2 border-[#fe5000] hover:shadow-none hover:text-[#fe5000] hover:border-[#fe5000] lg:mt-6">Contact
                         Us</button>
                 </div>
             </div>
         </div>
     </section>
     <!-- SLICK SLIDER SECTION -->
-    <section class="overflow-hidden relative">
+    <section id="About" class="overflow-hidden relative">
         <svg class="left-6 bottom-10 absolute" width="92" height="71" viewBox="0 0 92 71" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5">
@@ -108,15 +106,15 @@
                     stroke-linecap="round" />
             </g>
         </svg>
-        <div class="container mx-auto px-4 z-10 relative">
+        <div class="container mx-auto px-4 z-10 relative  ">
             <div class="flex flex-wrap">
                 <div class="w-full lg:w-[50%]">
-                    <h1 class="font-[Gilroybold] text-3xl sm:text-4xl md:text-5xl lg:text-6xl   2xl:text-7xl uppercase">
+                    <h1 class="font-[Gilroybold] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl uppercase">
                         Our Portfolios</h1>
                 </div>
                 <div class="w-full lg:w-[50%] flex justify-end ">
-                    <button class="mt-1 prev-btn arrowleft">
-                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button class="mt-1 prev-btn arrowleft ">
+                           <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="26.5217" cy="26.5217" r="25.9913" stroke="url(#paint0_linear_1_41)"
                                 stroke-width="1.06087" />
                             <path
@@ -166,7 +164,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-wrap mt-9 slider2 mb-32">
+        <div class="flex flex-wrap mt-3 md:mt-5 lg:mt-9 slider2 pb-16  sm:pb-20 lg:pb-32">
             <div class="w-[33.33%] px-2">
                 <img src="images/slickimg1.png" alt="">
             </div>
@@ -190,12 +188,6 @@
             </div>
             <div class="w-[33.33%] px-2">
                 <img src="images/slickimg2.png" alt="">
-            </div>
-            <div class="w-[33.33%] px-2">
-                <img src="images/slickimg3.png" alt="">
-            </div>
-            <div class="w-[33.33%] px-2">
-                <img src="images/slickimg3.png" alt="">
             </div>
             <div class="w-[33.33%] px-2">
                 <img src="images/slickimg3.png" alt="">
@@ -203,7 +195,7 @@
         </div>
     </section>
     <!-- ONE PIC WITH CONTACT US BUTTON -->
-    <section id="About" class="bg-black relative z-10">
+    <section  class="bg-black relative z-10">
         <svg class="absolute bottom-20   right-20" width="92" height="72" viewBox="0 0 92 72" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5">
@@ -218,12 +210,12 @@
                     stroke-linecap="round" />
             </g>
         </svg>
-        <div class="flex flex-wrap  items-center">
+        <div class="flex flex-wrap  items-center ">
             <div class="w-full lg:w-[50%]">
                 <img width="100%" src="./images/grid1pic.png" alt="">
             </div>
             <div class="w-full lg:w-[50%]">
-                <div class="lg:pl-16   xl:pl-40 text-center lg:text-start py-24 sm:py-36 lg:py-0">
+                <div class="lg:pl-16   xl:pl-40 text-center lg:text-start pt-16 pb-16 sm:pt-20 sm:pb-20 lg:px-0">
                     <h1
                         class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl   2xl:text-7xl font-black text-white lg:max-w-[553px] font-[Gilroybold] uppercase">
                         Sed volutpat erat dignissim iaculis
@@ -235,7 +227,7 @@
                         blandit.
                         Congue donec scelerisque congue pellentesque massa porta vel donec dapibus. </p>\
                     <button
-                        class="py-4 z-20 relative px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8 font-[Gilroylight]">Contact
+                        class="py-4 z-20 relative px-8  rounded-full text-base font-bold text-white lg:mt-8 font-[Gilroylight] gradint-btn shadow-[#ff6500] hover:bg-none border-2 border-[#fe5000] hover:shadow-none hover:text-[#fe5000] hover:border-[#fe5000]">Contact
                         Us</button>
                 </div>
             </div>
@@ -257,10 +249,9 @@
                     stroke-width="1.54167" stroke-linecap="round" />
             </g>
         </svg>
-
-        <div class="flex flex-wrap flex-row-reverse   items-center">
+        <div class="flex flex-wrap flex-row-reverse items-center">
             <div class="w-full lg:w-[50%] order-2">
-                <div class="lg:pl-16   xl:pl-40 text-center lg:text-start py-24 sm:py-36 lg:py-0">
+                <div class="lg:pl-16   xl:pl-40 text-center lg:text-start pt-16 pb-16 sm:pt-20 sm:pb-20 lg:px-0">
                     <h1
                         class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl   2xl:text-7xl font-black lg:max-w-[541px] font-[Gilroybold] uppercase">
                         At tempor, amet viverra
@@ -273,12 +264,12 @@
                         cursus. Pellentesque posuere.
                     </p>
                     <button
-                        class="py-4 z-10 relative px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8 font-[Gilroylight]">Talk
+                        class="py-4 z-10 relative px-8  rounded-full text-base font-bold text-white lg:mt-8 font-[Gilroylight] gradint-btn shadow-[#ff6500] hover:bg-none border-2 border-[#fe5000] hover:shadow-none hover:text-[#fe5000] hover:border-[#fe5000]">Talk
                         To Me</button>
                 </div>
             </div>
             <div class="w-full lg:w-[50%]">
-                <img width="100%" src="./images/grid2pic.png" alt="">
+                <img width="100%" src="./images/earphone.gif" alt="">
             </div>
         </div>
     </section>
@@ -303,8 +294,8 @@
             <div class="w-full lg:w-[50%]">
                 <img width="100%" src="./images/grid3pic.png" alt="">
             </div>
-            <div class="w-full lg:w-[50%]">
-                <div class=" lg:pl-16   xl:pl-40 text-center lg:text-start py-24 sm:py-36 lg:py-0 ">
+            <div class="w-full lg:w-[50%] pt-16 pb-16 sm:pt-20 sm:pb-20 lg:px-0">
+                <div class=" lg:pl-16   xl:pl-40 text-center lg:text-start ">
                     <p class="text-white text-base font-normal  uppercase pb-3 opacity-75">
                         About me
                     </p>
@@ -319,7 +310,7 @@
                         gravida pellentesque amet, quisque. In quis vitae lectus aenean congue odio sit semper porta.
                         Pellentesque id tempus, mauris donec facilisis.</p>
                     <button
-                        class="py-4 z-10 relative px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8  font-[Gilroylight]">Contact
+                        class="py-4 z-10 relative px-8 gradint-btn shadow-[#fe5000]  hover:bg-none border-2 border-[#fe5000] hover:shadow-none hover:text-[#fe5000] hover:border-[#fe5000] rounded-full text-base font-bold text-white lg:mt-8  font-[Gilroylight]">Contact
                         with Me</button>
                 </div>
             </div>
@@ -373,7 +364,7 @@
         <h1
             class="font-normal text-xl text-[#070707] opacity-70 -rotate-90 absolute right-[-6.75rem] top-2/4 font-[Gilroylight] hidden md:block">
             Twitter / Facebook / Instagram</h1>
-        <div class="container lg:px-11 2xl:px-20 xl:px-16 px-3 mx-auto pt-10 lg:py-32  conta ">
+        <div class="container lg:px-11 2xl:px-20 xl:px-16 px-3 mx-auto pt-16  sm:pt-20  lg:pt-32 lg:pb-32  ">
             <div class=" flex flex-wrap justify-between  items-center">
                 <div class="w-full lg:w-[55%]  z-10 relative ">
                     <div class="text-center items-center lg:text-start lg:items-start flex flex-col">
@@ -400,13 +391,13 @@
                                     placeholder="Enter Email Address" type="text">
                             </div>
                             <button
-                                class="py-[11px] px-6 mr-1 bg-[#FF2F01] rounded-full text-base font-bold text-white  hidden lg:block font-[Gilroylight]  ">SUBMIT</button>
+                                class="py-[10px] px-6 mr-1  gradint-btn shadow-[#ff6500] hover:bg-none border-2 border-[#fe5000] hover:shadow-none hover:text-[#fe5000] hover:border-[#fe5000] rounded-full text-base font-bold text-white  hidden lg:block font-[Gilroylight]  ">SUBMIT</button>
                         </div>
                         <button
-                            class="py-3 px-6 mr-1 mt-5 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:hidden font-[Gilroylight]">SUBMIT</button>
+                            class="py-3 px-6 mr-1 mt-5 gradint-btn shadow-[#ff6500] hover:bg-none border-2 border-[#fe5000] hover:shadow-none hover:text-[#fe5000] hover:border-[#fe5000] rounded-full text-base font-bold text-white lg:hidden font-[Gilroylight]">SUBMIT</button>
                     </div>
                 </div>
-                <div class="w-full lg:w-[45%] lg:items-end flex lg:flex-col justify-center gap-3  sm:gap-10 lg:gap-0  my-8 lg:my-0 z-10 relative ">
+                <div class="w-full lg:w-[45%] lg:items-end flex lg:flex-col justify-center gap-3  sm:gap-10 lg:gap-0   my-8 lg:my-0 z-10 relative ">
                     <svg class="py-1 my-1" width="41" height="40" viewBox="0 0 41 40" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="20.6097" cy="19.9261" r="19.9261" fill="#D9D9D9" />
@@ -525,15 +516,19 @@
     <!-- SCRIPT OF JQUARY FOR SLICK -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
         integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- SLICK MIN.JS FOR SLICK SLIDER     -->
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <!-- SLICK MIN.JS FOR SLICK SLIDER -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
     <!-- FUNCTION SCRIPT FOR NAVAR -->
     <script>
         function openNav() {
             document.getElementById("Nav-Bar").classList.toggle("left-0")
+            document.body.classList.toggle("overflow-hidden")
+
         }
     </script>
    <!--  SLIDER SCRIPT -->
